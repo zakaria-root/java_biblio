@@ -9,7 +9,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <script src="js/bootstrap.js"></script>
 </head>
 <body>
@@ -60,8 +60,8 @@ if(request.getParameter("op")!=null)
 								<h5><%=b.getName().toUpperCase()%></h5>
 							</div>
 							
-							<div class="col-4">
-								<a href="?op=delete&id=<%= b.getId()%>" class="btn btn-danger px-4 py-2">rendre</a>
+							<div class="col-5">
+								<a href="?op=delete&id=<%= b.getId()%>" class="btn btn-danger px-5 py-2 "> rendre </a>
 							</div>
 							
 							

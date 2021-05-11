@@ -10,7 +10,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <script src="js/bootstrap.js"></script>
 </head>
 <body>
@@ -59,14 +59,15 @@
 			<div class="col-4"></div>
 			<div class="col-4 offset-4 ">
 				<div class="row">
-					<div class="col-4 col-4 offset-8">
+					<div class="col-4 col-4 offset-7">
 
-						<a href="addBook.jsp" class="btn btn-success px-5 py-2 m-2">Ajouter</a>
+						<a href="addBook.jsp" class="btn btn-outline-success px-5 py-2 m-2">Ajouter</a>
 					</div>
 				</div>
 			</div>
 			<hr>
-
+			<di class="container">
+			<div class="row col-12">
 			<%
 			for (Book b : ab) {
 			%>
@@ -100,6 +101,8 @@
 			<%
 			}
 			%>
+			</div>
+			</di>
 		</div>
 	</div>
 

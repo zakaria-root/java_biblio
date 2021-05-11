@@ -10,7 +10,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <script src="js/bootstrap.js"></script>
 </head>
 <body>
@@ -74,12 +74,12 @@
 						<form class="d-flex mb-2" method="Get">
 							<input class="form-control me-2" type="search"
 								placeholder="Categorie" aria-label="Search" name="Cop">
-							<button class="btn btn-outline-success" type="submit">Search</button>
+							<button class="btn btn-outline-primary" type="submit">Search</button>
 						</form>
 						<form class="d-flex mb-2">
 							<input class="form-control me-2" type="search"
 								placeholder="Auteur" aria-label="Search" name="Aop">
-							<button class="btn btn-outline-success" type="submit">Search</button>
+							<button class="btn btn-outline-primary" type="submit">Search</button>
 						</form>
 					</div>
 				</div>
@@ -94,14 +94,14 @@
 				<div class="card">
 					<div class="card-header">
 						<div class="row justify-content-between">
-							<div class="col-4">
+							<div class="col-5">
 								<h5><%=b.getName().toUpperCase()%></h5>
 							</div>
 
 							<div class="col-4">
 								<a
 									href="?op=add&student_id=<%=s.getId()%>&book_id=<%=b.getId()%>"
-									class="btn btn-success px-3 py-2">Emprunter</a>
+									class="btn btn-success px-4 py-2">Emprunter</a>
 							</div>
 						</div>
 

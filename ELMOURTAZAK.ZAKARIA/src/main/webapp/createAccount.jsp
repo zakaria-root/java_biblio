@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <link href="css/bootstrap.css" rel="stylesheet">
-<script src="js/bootstrap.js"></script>
+<script src="css/bootstrap.min.css"></script>
 </head>
 <body>
 
