@@ -25,7 +25,7 @@
 				}
 				%>
 
-				<form action="addBook" method="post">
+				<form action="addBook" method="Post">
 					<div class="form-group  mt-3">
 						<label for="name">Nom</label> <input type="text"
 							class="form-control" id="name" name="name" placeholder="nom">
